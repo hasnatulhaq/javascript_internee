@@ -1,18 +1,17 @@
-//string code
-let ch = 12321,
-    rem, temp, reversenumber = 0;
+function checkPalindrome(str) {
 
-temp = number
-while (number > 0) {
-    rem = number % 10;
-    number = parseInt(number / 10);
-    console.log(number);
-    reversenumber = reversenumber * 10 + rem;
+    const len = string.length;
+    for (let i = 0; i < len / 2; i++) {
+
+        if (string[i] !== string[len - 1 - i]) {
+            return 'It is not a palindrome';
+        }
+    }
+    return 'It is a palindrome';
 }
 
-console.log(reversenumber);
-if (reversenumber == temp) {
-    console.log("number is palindrome");
-} else {
-    console.log("number is not palindrome");
-}
+let string = "madam";
+// call the function
+const value = checkPalindrome(string);
+
+console.log(value);
