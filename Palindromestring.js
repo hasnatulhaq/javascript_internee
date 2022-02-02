@@ -1,5 +1,5 @@
-function checkPalindrome(str) {
-
+function checkPalindrome(string) {
+    console.log(string);
     const len = string.length;
     for (let i = 0; i < len / 2; i++) {
 
@@ -13,5 +13,4 @@ function checkPalindrome(str) {
 let string = "madam";
 // call the function
 const value = checkPalindrome(string);
-
 console.log(value);
