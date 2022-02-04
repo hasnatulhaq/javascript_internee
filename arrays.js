@@ -10,11 +10,13 @@ const people = [
     ]
     // map
 const peoplename = people.map((people) => {
-        return people.age <= 50;
-    })
-    //filter
+    return people.age <= 50;
+})
+
 console.log(peoplename);
+//filter
+/*
 const peoplename = people.filter((people) => {
     return people.age <= 50;
 })
-console.log(peoplename);
+console.log(peoplename);*/
