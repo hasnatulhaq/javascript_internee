@@ -8,6 +8,5 @@ function kmtomiles(km) {
     return result;
 }
 
-
 value = kmtomiles(km);
 console.log(value);
