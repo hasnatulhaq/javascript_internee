@@ -1,5 +1,15 @@
 let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
+
+
+const newArr = number.map((val, index) => {
+    delete val;
+    console.log(val, ":", index);
+    return val;
+})
+
+
+
 //checking odd number 
 const oddnumber = number.filter((checkodd) => {
     console.log(checkodd % 2 !== 0, "line no 7");
@@ -35,4 +45,7 @@ const takingsquare = number.filter((checknumber) => {
 
 })
 
-console.log(checknumber);
+
+
+
+// map
