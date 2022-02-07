@@ -28,7 +28,9 @@ const customer = [
 ]
 
 
-const newarr = customer.map((val, index) => {
+const newarr = customer.map((val) => {
 
-    console.log(val);
+    return val;
 })
+
+console.log(newarr);
